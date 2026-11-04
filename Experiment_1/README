@@ -1,0 +1,4 @@
+cd Experiment_1
+pip install -r requirements.txt
+.\venv\Scripts\Activate.ps1
+python main.py
