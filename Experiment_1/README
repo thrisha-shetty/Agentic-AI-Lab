@@ -1,6 +1,19 @@
+cd Agentic-AI-Lab
 cd Experiment_1
 pip install -r requirements.txt
+python -m venv venv
 .\venv\Scripts\Activate.ps1
+
+https://aistudio.google.com/app/apikey?utm_source=chatgpt.com
+
 python main.py
 AQ.Ab8RN6Li-ArcukWK8-OdbPVWm8siO1C6wFcmtG7vyVNeXP6T5Q
 4fea62334c49f8ba31150cf0ae93892b
+
+pip install python-dotenv
+pip install -r requirements.txt
+python main.py
+
+python -m pip install --upgrade google-genai
+python -c "from google import genai; print('Google GenAI installed successfully!')"
+python main.py
